@@ -244,7 +244,7 @@ endif
 
 if count(g:bundle_groups, 'python')
     " PyLint, Rope, Pydoc, breakpoints from box
-    Plug 'python-mode/python-mode'
+    Plug 'python-mode/python-mode',{ 'branch': 'develop' }
 endif
 
 " powerful code-completion engine
